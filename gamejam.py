@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 BASE_GAME = [
-    'Tetris',
+    #'Tetris', # DONE 20200314
     'Snake',
     'Boulder Dash',
     'Sokoban',
@@ -79,8 +79,8 @@ THEME = [
     'kucyki i jednorożce / tęcza',
     'Anime Anibe Anikukuryku',
     'Jesteś całką',
-    'Bimbrownia',
-    'Kraków',
+    #'Bimbrownia', # DONE 20200314
+    #'Kraków', # DONE 20200201
     'Centrum Resurrectionis',  # by MC
     'Animizacja (jestes przedmiotem)',
     'Cząstki elementarne',
@@ -200,3 +200,4 @@ if __name__ == '__main__':
     print('MUTATIONS:')
     for mutation in sorted(idx):
         print(f"    {MUTATIONS[mutation]}")
+
