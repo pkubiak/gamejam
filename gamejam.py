@@ -143,6 +143,7 @@ MUTATIONS = [
     'game-require-pressing-at-least-5-keys-at-once',
     'game-require-paper-and-pencil',
     'map-based',
+    'in-game-programming',
     
     # other
     'opengameart.org assets',
@@ -161,6 +162,11 @@ MUTATIONS = [
 
 
 if __name__ == '__main__':
+    seed_str = str([datetime.today().strftime('%Y%m%d')] + sys.argv[1:])
+
+    seed = hashlib.sha512(seed_str.encode('utf-8')).digest()
+    random.seed(seed)
+    
     print("""RULES:
     Base Time Limit: 3h
     Submitions: public github, only own code allowed, with screenshot
@@ -175,19 +181,6 @@ if __name__ == '__main__':
 
     Awards: Pizza at the end free4all
     """)
-    try:
-        iteration = int(sys.argv[1])
-    except (ValueError, IndexError):
-        iteration = 0
-
-    seed_str = "%(datestamp)s;%(random_numbers)s;%(iteration)d" % {
-        'datestamp': datetime.today().strftime('%Y%m%d'),
-        'random_numbers': [69, 'undefined', 1j],  # NOTE: replace Ellipsies with players defined numbers
-        'iteration': iteration  # NOTE: increment 0 when yoker
-    }
-
-    seed = hashlib.sha512(seed_str.encode('utf-8')).digest()
-    random.seed(seed)
 
     print('BASE GAME:\n   ', random.choice(BASE_GAME), "\n")
     
@@ -195,7 +188,7 @@ if __name__ == '__main__':
 
     idx = set()
     while len(idx) < 3:
-        idx.add(random.randint(0, len(MUTATIONS)))
+        idx.add(random.randint(0, len(MUTATIONS)-1))
 
     print('MUTATIONS:')
     for mutation in sorted(idx):
