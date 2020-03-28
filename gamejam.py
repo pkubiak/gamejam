@@ -33,7 +33,8 @@ BASE_GAME = [
     'Card game',
     'Puzzle Game / Arcade',
     'gra paragrafowa',
-    
+    'Tamagotchi',
+    'Bloxorz',
     # '3D Maze', # DONE 20200201
     'Rougelike',
     'Minesweeper',
@@ -44,13 +45,11 @@ BASE_GAME = [
     'agar.io',
     'Kveiki',
     'Kulki',
-    'Frozen Bubble',
+    # 'Frozen Bubble', # DONE 20200321
     'Mamba',
     'Bomberman',
     'Tanks z boku',
     'Czołgi z góry',
-    'Tamagotchi',
-    'Bloxorz',
     'Scotland Yard',
     
     'MC wybiera',
@@ -59,7 +58,7 @@ BASE_GAME = [
 
 THEME = [
     'Cats',
-    'Nature',
+    # 'Nature', # DONE 20200321
     'City',
     'Otter Space',
     'Ocean / underwater',
@@ -79,9 +78,8 @@ THEME = [
     'kucyki i jednorożce / tęcza',
     'Anime Anibe Anikukuryku',
     'Jesteś całką',
-    #'Bimbrownia', # DONE 20200314
-    #'Kraków', # DONE 20200201
-    'Centrum Resurrectionis',  # by MC
+    # 'Bimbrownia', # DONE 20200314
+    # 'Kraków', # DONE 20200201
     'Animizacja (jestes przedmiotem)',
     'Cząstki elementarne',
     'Pierwsza Wojna Światowa',
@@ -104,6 +102,7 @@ MUTATIONS = [
     'monochromatic',
     '16 colors',
     'unicode',
+    'emoji',
     'low resolution (<4kPx)',
     'vector',
     '3D',
@@ -147,6 +146,7 @@ MUTATIONS = [
     
     # other
     'opengameart.org assets',
+    'handcrafted assets',
     '13kB (gziped)',
 
     # hardcore
@@ -163,7 +163,7 @@ MUTATIONS = [
 if __name__ == '__main__':
     print("""RULES:
     Base Time Limit: 3h
-    Submitions: public github, only own code allowed
+    Submitions: public github, only own code allowed, with screenshot
     Last Wish: Each player can commment-out single "feature"
     Retry: If **all** contestants agree, we can once rerandom
     
