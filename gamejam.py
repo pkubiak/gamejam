@@ -56,6 +56,8 @@ BASE_GAME = [
   'Minesweeper',
   'Tower Defense',
   'Text based',
+  'Tetris Racing',
+  'Memory',
 
   # by MC 
   'agar.io',
@@ -66,7 +68,7 @@ BASE_GAME = [
   'Bomberman',
   'Tanks z boku',
   'Czołgi z góry',
-  'Scotland Yard',
+  # 'Scotland Yard', # DONE 20200328
   
   'MC wybiera',
 ]
@@ -88,7 +90,7 @@ THEME = [
   'Slavic Mythology',
   'Autostopem przez galaktykę',
   'Nuclear Throne',
-  'Ecology / Recycling',
+  # 'Ecology / Recycling',  # DONE 20200328
   
   # p******e
   'kucyki i jednorożce / tęcza',
@@ -184,6 +186,7 @@ MUTATIONS = [
   # hardcore
   'code-without-w',  # by MC
   'no internet (after start)',  # by GŻ
+  'unit-tests',  # by MC
   # 'pair-coding',
 
   # yokers
