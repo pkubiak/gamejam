@@ -35,7 +35,6 @@ BASE_GAME = [
   'Frogger',
   'Breakout / WinBricks',
   'Tron',
-  'pacman',
 
   # by PK
   'Mario Kart / Lotus',
@@ -59,6 +58,8 @@ BASE_GAME = [
   'Text based',
   'Tetris Racing',
   'Memory',
+  '2048',
+  'pacman',
 
   # by MC 
   'agar.io',
