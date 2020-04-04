@@ -3,7 +3,7 @@
 
 ## History ##
 
-#### GameJam #4: Scotland Yard ####
+#### [GameJam #4: Scotland Yard]((https://github.com/pkubiak/gamejam/blob/master/04_20200328.md) ####
 
 #### [GameJam #3: Frozen Bubble](https://github.com/pkubiak/gamejam/blob/master/03_20200321.md) ####
 
