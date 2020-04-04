@@ -128,6 +128,7 @@ MUTATIONS = [
     'vector',
     '3D',
     'hexy',
+    'isometric',
   ],
 
   # gameplay
@@ -137,6 +138,7 @@ MUTATIONS = [
     '2+ players',
     'CPU vs CPU',
     'online multiplayer',
+    'co-op',
   ],
 
   # sound
@@ -169,6 +171,7 @@ MUTATIONS = [
   'user-content (e.g. user can defined levels)',
   'game-require-interaction-with-real-life',
   'hero-building',
+  'word-building',
   'achievements',
   'highscore-table',
   'game-require-paper-and-pencil',
@@ -179,6 +182,7 @@ MUTATIONS = [
   [
     'opengameart.org assets',
     'handcrafted assets',
+    'game-of-one-asset',
   ],
 
   '13kB (gziped)',
