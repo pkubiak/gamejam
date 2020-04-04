@@ -59,7 +59,6 @@ BASE_GAME = [
   'Tetris Racing',
   'Memory',
   '2048',
-  'pacman',
 
   # by MC 
   'agar.io',
