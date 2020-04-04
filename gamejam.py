@@ -35,6 +35,7 @@ BASE_GAME = [
   'Frogger',
   'Breakout / WinBricks',
   'Tron',
+  'pacman',
 
   # by PK
   'Mario Kart / Lotus',
