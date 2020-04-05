@@ -27,10 +27,10 @@ BASE_GAME = [
   'Sokoban',
   'Zatacka / Achtung Die Kurve',
   'Asteroids',
-  'Space Invaders',
+  'Space Invaders', # https://codeheir.com/2019/03/17/how-to-code-space-invaders-1978-7/
   'Space shooter',
   'Donky Kong',
-  'Pong',
+  'Pong', # https://codeheir.com/2019/02/04/how-to-code-pong-1972-1/
   'Pac-Man',
   'Frogger',
   'Breakout / WinBricks',
@@ -63,7 +63,7 @@ BASE_GAME = [
   'Dobble', # https://youtu.be/lhTMr8RzUr8
   'Gran Trak 10', # https://codeheir.com/2019/02/17/how-to-code-gran-trak-10-1974-3/
   'Jet Figter', # https://codeheir.com/2019/02/24/how-to-code-jet-fighter-1975-4/
-  'Canyon Bomber',
+  'Canyon Bomber', # https://codeheir.com/2019/03/10/how-to-code-canyon-bomber-1977-6/
 
   # by MC 
   'agar.io',
