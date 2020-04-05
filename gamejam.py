@@ -56,9 +56,14 @@ BASE_GAME = [
   'Minesweeper',
   'Tower Defense',
   'Text based',
-  'Tetris Racing',
+  'Tetris Racing / Monaco GP',# https://youtu.be/ZRQXzOL4iOA
   'Memory',
   '2048',
+  'Ships',
+  'Dobble', # https://youtu.be/lhTMr8RzUr8
+  'Gran Trak 10', # https://codeheir.com/2019/02/17/how-to-code-gran-trak-10-1974-3/
+  'Jet Figter', # https://codeheir.com/2019/02/24/how-to-code-jet-fighter-1975-4/
+  'Canyon Bomber',
 
   # by MC 
   'agar.io',
