@@ -16,7 +16,7 @@
 ## Materials ##
 
 - [Game Programming Patterns](http://gameprogrammingpatterns.com/)
-- [TheHappieCat](https://www.youtube.com/user/TheHappieCat/)
-- [javidx9](https://www.youtube.com/channel/UC-yuWVUplUJZvieEligKBkA/)
-- [https://codeheir.com/2019/08/17/top-5-best-games-to-code-as-a-beginner/](https://codeheir.com/2019/08/17/top-5-best-games-to-code-as-a-beginner/)
+- [Youtube - TheHappieCat channel](https://www.youtube.com/user/TheHappieCat/)
+- [Youtube - javidx9 channel](https://www.youtube.com/channel/UC-yuWVUplUJZvieEligKBkA/)
+- [Top 5 BEST games to code as a beginner!](https://codeheir.com/2019/08/17/top-5-best-games-to-code-as-a-beginner/)
 - [9day gamejam challenge](https://en.wikipedia.org/wiki/Template:1970s_Atari_arcade_games)
