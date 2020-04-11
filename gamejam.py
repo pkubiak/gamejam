@@ -19,6 +19,7 @@ import random
 import hashlib
 from datetime import datetime
 
+TODAY = datetime.today().strftime('%Y%m%d')
 
 BASE_GAME = [
   #'Tetris', # DONE 20200314
@@ -40,7 +41,7 @@ BASE_GAME = [
   'Mario Kart / Lotus',
   'Board game',
   'Kret',
-  'Dizzy',
+  'Dizzy / Platform',
   'Bejeweled'
   'Duck Hunt',
   'Blobby Valley',
@@ -87,12 +88,19 @@ THEME = [
   'Otter Space',
   'Ocean / underwater',
   'Cave',
+  'Future SciFi',
+  'Steampunk', 
+  'Dinosaurs', 
+  'Stealth', 
+  'Time travel',
+  'Zombies',
+  
 
   'Inside A Computer',
   'Castle',
   'Alternate Reality',
   'Polska postapo',
-  'D&D',
+  'Dungeons&Dragons',
   'Slavic Mythology',
   'Autostopem przez galaktykę',
   'Nuclear Throne',
@@ -104,11 +112,11 @@ THEME = [
   'Jesteś całką',
   # 'Bimbrownia', # DONE 20200314
   # 'Kraków', # DONE 20200201
-  'Animizacja (jestes przedmiotem)',
+  'Animizacja (jesteą przedmiotem)',
   'Cząstki elementarne',
   'Pierwsza Wojna Światowa',
   'Coronavirus',
-]
+] + ['Happy Easter']*(4**9 if '0409' <= TODAY[4:] <= '0416' else 0)
 
 
 MUTATIONS = [
@@ -243,8 +251,7 @@ def sample_game(seed):
 
 
 if __name__ == '__main__':
-  today = datetime.today().strftime('%Y%m%d')
-  base_game, theme, mutations = sample_game([today] + sys.argv[1:])
+  base_game, theme, mutations = sample_game([TODAY] + sys.argv[1:])
 
   print(__doc__)
 
