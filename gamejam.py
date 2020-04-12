@@ -65,8 +65,8 @@ BASE_GAME = [
   'Gran Trak 10', # https://codeheir.com/2019/02/17/how-to-code-gran-trak-10-1974-3/
   'Jet Figter', # https://codeheir.com/2019/02/24/how-to-code-jet-fighter-1975-4/
   'Canyon Bomber', # https://codeheir.com/2019/03/10/how-to-code-canyon-bomber-1977-6/
-  'Word Game (scrabble, Codename, Panśtwa-Miasta)',
-  'Paper Soccer', 
+  'Word Game', # eg. scrabble, Codename, Panśtwa-Miasta, Hangman
+  'Paper & Pencil', # https://en.wikipedia.org/wiki/Category:Paper-and-pencil_games
 
   # by MC 
   'agar.io',
