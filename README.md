@@ -3,7 +3,8 @@
 
 ## History ##
 
-#### GameJam #5: :hatching_chick: Easter Edition :hatching_chick: - TBA ####
+
+#### [GameJam #5: :hatching_chick: Easter Edition - Flappy Bird :hatching_chick:](https://github.com/pkubiak/gamejam/blob/master/05_20200413.md) ####
 
 #### [GameJam #4: Scotland Yard](https://github.com/pkubiak/gamejam/blob/master/04_20200328.md) ####
 
