@@ -46,7 +46,7 @@ BASE_GAME = [
   'Duck Hunt',
   'Blobby Valley',
   'Jumping T-Rex',
-  'Flappy Bird',
+  # 'Flappy Bird',  # DONE 20200413
   'Card game',
   'Puzzle Game / Arcade',
   'gra paragrafowa',
