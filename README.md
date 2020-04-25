@@ -15,7 +15,7 @@
 #### [GameJam #1: Maze 3D](https://github.com/pkubiak/gamejam/blob/master/01_20200201.md) ####
 
 ## Materials ##
-
+- [PyWeek - Python Game Programming Challenge](https://pyweek.org/)
 - [Game Programming Patterns](http://gameprogrammingpatterns.com/)
 - [Youtube - TheHappieCat channel](https://www.youtube.com/user/TheHappieCat/)
 - [Youtube - javidx9 channel](https://www.youtube.com/channel/UC-yuWVUplUJZvieEligKBkA/)
