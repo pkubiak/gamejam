@@ -3,6 +3,7 @@
 
 ## History ##
 
+#### [GameJam #6: Arkanoid](https://github.com/pkubiak/gamejam/blob/master/06_20200503.md) ####
 
 #### [GameJam #5: :hatching_chick: Flappy Bird - Easter Edition :hatching_chick:](https://github.com/pkubiak/gamejam/blob/master/05_20200413.md) ####
 
