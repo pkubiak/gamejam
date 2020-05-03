@@ -34,7 +34,7 @@ BASE_GAME = [
   'Pong', # https://codeheir.com/2019/02/04/how-to-code-pong-1972-1/
   'Pac-Man',
   'Frogger',
-  'Breakout / WinBricks',
+  # 'Breakout / WinBricks',  # DONE 20200503
   'Tron',
 
   # by PK
@@ -100,7 +100,7 @@ THEME = [
 
   'Inside A Computer',
   'Castle',
-  'Alternate Reality',
+  # 'Alternate Reality',# DONE 20200503
   'Polska postapo',
   'Dungeons&Dragons',
   'Slavic Mythology',
@@ -118,7 +118,7 @@ THEME = [
   'Cząstki elementarne',
   'Pierwsza Wojna Światowa',
   'Coronavirus',
-] + ['Happy Easter']*(4**9 if '0409' <= TODAY[4:] <= '0416' else 0)
+] + ['Happy Easter'] * (4**9 if '0409' <= TODAY[4:] <= '0416' else 0)
 
 
 MUTATIONS = [
