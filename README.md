@@ -16,6 +16,7 @@
 #### [GameJam #1: Maze 3D](https://github.com/pkubiak/gamejam/blob/master/01_20200201.md) ####
 
 ## Materials ##
+- [OGA 'Summer' Game Jam #4 2020](https://itch.io/jam/oga-summer-game-jam-4-2020)
 - [Blog about gamedev](https://github.com/a327ex/blog)
 - [PyWeek - Python Game Programming Challenge](https://pyweek.org/)
 - [Game Programming Patterns](http://gameprogrammingpatterns.com/)
