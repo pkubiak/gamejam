@@ -80,7 +80,7 @@ BASE_GAME = [
   # 'Scotland Yard', # DONE 20200328
   
   'MC wybiera',
-]
+] + ['Pac-Man'] * (2020 if TODAY == '20200614' else 0)
 
 
 THEME = [
@@ -96,7 +96,6 @@ THEME = [
   'Stealth', 
   'Time travel',
   'Zombies',
-  
 
   'Inside A Computer',
   'Castle',
@@ -107,6 +106,9 @@ THEME = [
   'Autostopem przez galaktykę',
   'Nuclear Throne',
   # 'Ecology / Recycling',  # DONE 20200328
+  'Wojna klanów',
+  'Pokemons',
+  'Farm / Countryside',
   
   # p******e
   'kucyki i jednorożce / tęcza',
