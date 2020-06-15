@@ -32,7 +32,7 @@ BASE_GAME = [
   'Space shooter',
   'Donky Kong',
   'Pong', # https://codeheir.com/2019/02/04/how-to-code-pong-1972-1/
-  'Pac-Man',
+  # 'Pac-Man',  # DONE 20200614
   'Frogger',
   # 'Breakout / WinBricks',  # DONE 20200503
   'Tron',
@@ -88,7 +88,7 @@ THEME = [
   # 'Nature', # DONE 20200321
   'City',
   'Otter Space',
-  'Ocean / underwater',
+  # 'Ocean / underwater',  # DONE 20200614
   'Cave',
   'Future SciFi',
   'Steampunk', 
