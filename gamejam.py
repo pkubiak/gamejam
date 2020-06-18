@@ -210,7 +210,8 @@ MUTATIONS = [
   'code-without-w',  # by MC
   'no internet (after start)',  # by GŻ
   'unit-tests',  # by MC
-  # 'pair-coding',
+  'powerpoint',  # by PK: https://itch.io/jam/powerpoint-game-jam
+  'pair-coding',
 
   # yokers
   [
