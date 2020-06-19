@@ -208,12 +208,14 @@ MUTATIONS = [
   '13kB (gziped)',
 
   # hardcore
-  'code-without-w',  # by MC
-  'no internet (after start)',  # by GŻ
-  'unit-tests',  # by MC
-  'powerpoint',  # by PK: https://itch.io/jam/powerpoint-game-jam
-  'pair-coding',
-
+  [
+    'code-without-w',  # by MC
+    'no internet (after start)',  # by GŻ
+    'unit-tests',  # by MC
+    'powerpoint',  # by PK: https://itch.io/jam/powerpoint-game-jam
+    'pair-coding',
+  ],
+    
   # yokers
   [
     'yoker', 'yoker',  # can rerandom if anyone wants
