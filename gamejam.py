@@ -182,6 +182,7 @@ MUTATIONS = [
     'no-python',
     'mobile',
     'scratch',
+    'powerpoint',  # by PK: https://itch.io/jam/powerpoint-game-jam
   ],
 
   # game mechanics
@@ -212,8 +213,7 @@ MUTATIONS = [
     'code-without-w',  # by MC
     'no internet (after start)',  # by GŻ
     'unit-tests',  # by MC
-    'powerpoint',  # by PK: https://itch.io/jam/powerpoint-game-jam
-    'pair-coding',
+    'pair-coding',  # via VS LiveShare
   ],
     
   # yokers
