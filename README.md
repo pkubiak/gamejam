@@ -3,6 +3,8 @@
 
 ## History ##
 
+#### [GameJam #8: Marble Madness / Hamsterball Gold](https://github.com/pkubiak/gamejam/blob/master/08_20201004.md) ####
+
 #### [GameJam #7: Pacman - 40th Anniversary Edition](https://github.com/pkubiak/gamejam/blob/master/07_20200614.md) ####
 
 #### [GameJam #6: Arkanoid](https://github.com/pkubiak/gamejam/blob/master/06_20200503.md) ####
