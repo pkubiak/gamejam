@@ -67,6 +67,7 @@ BASE_GAME = [
   'Canyon Bomber', # https://codeheir.com/2019/03/10/how-to-code-canyon-bomber-1977-6/
   'Word Game', # eg. scrabble, Codename, Panśtwa-Miasta, Hangman
   'Paper & Pencil', # https://en.wikipedia.org/wiki/Category:Paper-and-pencil_games
+  'pinball',
 
   # by MC 
   'agar.io',
@@ -79,8 +80,10 @@ BASE_GAME = [
   'Czołgi z góry',
   # 'Scotland Yard', # DONE 20200328
   
-  'MC wybiera',
-] + ['Pac-Man'] * (2020 if TODAY == '20200614' else 0)
+  # 'MC wybiera', # DONE 20201004
+  'PC wybiera',
+  # 'Pac-Man', # DONE 20200614
+]
 
 
 THEME = [
@@ -101,7 +104,7 @@ THEME = [
   'Inside A Computer',
   'Castle',
   # 'Alternate Reality',# DONE 20200503
-  'Polska postapo',
+  # 'Polska postapo', # DONE 20201004
   'Dungeons&Dragons',
   'Slavic Mythology',
   'Autostopem przez galaktykę',
@@ -181,6 +184,7 @@ MUTATIONS = [
     'no-python',
     'mobile',
     'scratch',
+    'powerpoint',  # by PK: https://itch.io/jam/powerpoint-game-jam
   ],
 
   # game mechanics
@@ -196,7 +200,8 @@ MUTATIONS = [
   'game-require-paper-and-pencil',
   'map-based',
   'in-game-programming',
-  
+  'motyw-edukacyjny',
+    
   # other
   [
     'opengameart.org assets',
@@ -207,11 +212,13 @@ MUTATIONS = [
   '13kB (gziped)',
 
   # hardcore
-  'code-without-w',  # by MC
-  'no internet (after start)',  # by GŻ
-  'unit-tests',  # by MC
-  # 'pair-coding',
-
+  [
+    'code-without-w',  # by MC
+    'no internet (after start)',  # by GŻ
+    'unit-tests',  # by MC
+    'pair-coding',  # via VS LiveShare
+  ],
+    
   # yokers
   [
     'yoker', 'yoker',  # can rerandom if anyone wants
