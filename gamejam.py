@@ -56,8 +56,8 @@ BASE_GAME = [
   'Rougelike',
   'Minesweeper',
   'Tower Defense',
-  'Text based',
-  'Tetris Racing / Monaco GP',# https://youtu.be/ZRQXzOL4iOA
+  'Text based', # https://en.wikipedia.org/wiki/Text_adventure
+  'Tetris Racing / Monaco GP', # https://youtu.be/ZRQXzOL4iOA
   'Memory',
   '2048',
   'Ships',
@@ -151,6 +151,7 @@ MUTATIONS = [
     '3D',
     'hexy',
     'isometric',
+    'raycasting',
   ],
 
   # gameplay
@@ -197,7 +198,7 @@ MUTATIONS = [
   'word-building',
   'achievements',
   'highscore-table',
-  'game-require-paper-and-pencil',
+  'game-require-paper-and-pencil', # e.g. you must take notes or draw map to complete game
   'map-based',
   'in-game-programming',
   'motyw-edukacyjny',
