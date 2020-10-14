@@ -1,5 +1,9 @@
 # GameJam #
 
+## How To Start ##
+```
+> python3 gamejam.py <random strings used to seed random numbers generator>
+```
 
 ## History ##
 
