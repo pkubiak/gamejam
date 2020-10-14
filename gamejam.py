@@ -80,8 +80,10 @@ BASE_GAME = [
   'Czołgi z góry',
   # 'Scotland Yard', # DONE 20200328
   
-  'MC wybiera',
-] + ['Pac-Man'] * (2020 if TODAY == '20200614' else 0)
+  # 'MC wybiera', # DONE 20201004
+  'PC wybiera',
+  # 'Pac-Man', # DONE 20200614
+]
 
 
 THEME = [
@@ -102,7 +104,7 @@ THEME = [
   'Inside A Computer',
   'Castle',
   # 'Alternate Reality',# DONE 20200503
-  'Polska postapo',
+  # 'Polska postapo', # DONE 20201004
   'Dungeons&Dragons',
   'Slavic Mythology',
   'Autostopem przez galaktykę',
@@ -198,7 +200,8 @@ MUTATIONS = [
   'game-require-paper-and-pencil',
   'map-based',
   'in-game-programming',
-  
+  'motyw-edukacyjny',
+    
   # other
   [
     'opengameart.org assets',
