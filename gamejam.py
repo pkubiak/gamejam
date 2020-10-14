@@ -92,7 +92,7 @@ THEME = [
   'City',
   'Otter Space',
   # 'Ocean / underwater',  # DONE 20200614
-  'Cave',
+  'Cave / underground',
   'Future SciFi',
   'Steampunk', 
   'Dinosaurs', 
@@ -100,6 +100,7 @@ THEME = [
   'Time travel',
   'Zombies',
   'Food',
+  'Fantasy',
     
   'Inside A Computer',
   'Castle',
