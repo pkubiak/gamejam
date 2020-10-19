@@ -187,6 +187,7 @@ MUTATIONS = [
     'mobile',
     'scratch',
     'powerpoint',  # by PK: https://itch.io/jam/powerpoint-game-jam
+    'brython',
   ],
 
   # game mechanics
