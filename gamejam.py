@@ -115,6 +115,7 @@ THEME = [
   'Wojna klanów',
   'Pokemons',
   'Farm / Countryside',
+  'Cyberpunk',
   
   # p******e
   'kucyki i jednorożce / tęcza',
@@ -154,6 +155,7 @@ MUTATIONS = [
     'hexy',
     'isometric',
     'raycasting',
+    'non-euclidean',
   ],
 
   # gameplay
