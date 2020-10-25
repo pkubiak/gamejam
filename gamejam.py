@@ -1,17 +1,18 @@
 """
 GAMEJAM RULES:
     Base Time Limit: 3h
+    To participate you must star gamejam repo on github
     Submitions: public github with screenshot, only own code allowed
     Last Wish: Each player can commment-out single "feature"
     Retry: If **all** contestants agree, we can once rerandom
     
     Score: 
-      - 0pts for non runnable game 
+      - 0pts for non runnable game (before the start, we set minimal requirements)
       - voting 3/pts (each player, no self votes)
-      - (-1pts) x breaking rules
-      - Kaspair™ judge -> 3pts
+      - (+1pts) x (theme and each mutation)
+      - +1 for deployed game ;)
 
-    Awards: Pizza at the end free4all
+    Awards: Pizza at the end free4all (offline gamejam only)
 """
 
 import sys
