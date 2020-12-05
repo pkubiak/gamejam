@@ -7,23 +7,32 @@
 
 ## History ##
 
-#### [GameJam #9: Nuclear Throne](???)
+#### [GameJam #10: :santa: :christmas_tree: :gift: ??? - Santa Clause Edition :santa: :christmas_tree: :gift:](???)
 
-#### [GameJam #8: Marble Madness / Hamsterball Gold](https://github.com/pkubiak/gamejam/blob/master/08_20201004.md) ####
+#### [GameJam #9: Nuclear Throne](09_20201025.md)
 
-#### [GameJam #7: Pacman - 40th Anniversary Edition](https://github.com/pkubiak/gamejam/blob/master/07_20200614.md) ####
+#### [GameJam #8: Marble Madness / Hamsterball Gold](08_20201004.md) ####
 
-#### [GameJam #6: Arkanoid](https://github.com/pkubiak/gamejam/blob/master/06_20200503.md) ####
+#### [GameJam #7: Pacman - 40th Anniversary Edition](07_20200614.md) ####
 
-#### [GameJam #5: :hatching_chick: Flappy Bird - Easter Edition :hatching_chick:](https://github.com/pkubiak/gamejam/blob/master/05_20200413.md) ####
+#### [GameJam #6: Arkanoid](06_20200503.md) ####
 
-#### [GameJam #4: Scotland Yard](https://github.com/pkubiak/gamejam/blob/master/04_20200328.md) ####
+#### [GameJam #5: :hatching_chick: Flappy Bird - Easter Edition :hatching_chick:](05_20200413.md) ####
 
-#### [GameJam #3: Frozen Bubble](https://github.com/pkubiak/gamejam/blob/master/03_20200321.md) ####
+#### [GameJam #4: Scotland Yard](04_20200328.md) ####
 
-#### [GameJam #2: Tetris](https://github.com/pkubiak/gamejam/blob/master/02_20200314.md) ####
+#### [GameJam #3: Frozen Bubble](03_20200321.md) ####
 
-#### [GameJam #1: Maze 3D](https://github.com/pkubiak/gamejam/blob/master/01_20200201.md) ####
+#### [GameJam #2: Tetris](02_20200314.md) ####
+
+#### [GameJam #1: Maze 3D](01_20200201.md) ####
+
+## Engines ##
+- python
+  - [pygame-zero](https://pygame-zero.readthedocs.io/en/stable/)
+  - [pygame](https://www.pygame.org/)
+- javascript
+  - [phaser](https://phaser.io/)
 
 ## Materials ##
 - [Red Blob Games - Visual Tutorials on gamedev problems](https://www.redblobgames.com/)
