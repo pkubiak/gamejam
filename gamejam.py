@@ -84,6 +84,7 @@ BASE_GAME = [
   # 'MC wybiera', # DONE 20201004
   'PC wybiera',
   # 'Pac-Man', # DONE 20200614
+  # 'Nuclear Throne', # DONE 20201025
 ]
 
 
@@ -93,7 +94,7 @@ THEME = [
   'City',
   'Otter Space',
   # 'Ocean / underwater',  # DONE 20200614
-  'Cave / underground',
+  'Cave / underground',  # DONE 20201025
   'Future SciFi',
   'Steampunk', 
   'Dinosaurs', 
@@ -110,7 +111,6 @@ THEME = [
   'Dungeons&Dragons',
   'Slavic Mythology',
   'Autostopem przez galaktykę',
-  'Nuclear Throne',
   # 'Ecology / Recycling',  # DONE 20200328
   'Wojna klanów',
   'Pokemons',
@@ -127,7 +127,7 @@ THEME = [
   'Cząstki elementarne',
   'Pierwsza Wojna Światowa',
   'Coronavirus',
-] + ['Happy Easter'] * (4**9 if '0409' <= TODAY[4:] <= '0416' else 0)
+] + ['Happy Easter'] * (4**9 if '0409' <= TODAY[4:] <= '0416' else 0) + ['Santa Claus'] * (4**9 if '1205' <= TODAY[4:] <= '1207' else 0)
 
 
 MUTATIONS = [
