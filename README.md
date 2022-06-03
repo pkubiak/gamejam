@@ -5,6 +5,12 @@
 > python3 gamejam.py <random strings used to seed random numbers generator>
 ```
 
+### Online version
+
+Thanks to [PyScript](https://github.com/pyscript/pyscript) project, you can run GameJam generator in your browser:
+
+- https://pkubiak.github.io/gamejam/
+
 ## History ##
 
 #### [GameJam #10: :santa: :christmas_tree: :gift: ??? - Santa Clause Edition :santa: :christmas_tree: :gift:](???)
