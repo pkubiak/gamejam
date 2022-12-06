@@ -2,17 +2,15 @@
 GAMEJAM RULES:
     Base Time Limit: 3h
     To participate you must star gamejam repo on github
-    Submitions: public github with screenshot, only own code allowed
-    Last Wish: Each player can commment-out single "feature"
+    Submitions: public github repo, only own code allowed
     Retry: If **all** contestants agree, we can once rerandom
     
     Score: 
-      - 0pts for non runnable game (before the start, we set minimal requirements)
+      - 0pts for non runnable game (user interactions, possible win)
       - voting 3/pts (each player, no self votes)
       - (+1pts) x (theme and each mutation)
-      - +1 for deployed game ;)
+      - +1pts for readme with screenshot
 
-    Awards: Pizza at the end free4all (offline gamejam only)
 """
 
 import sys
@@ -41,18 +39,18 @@ BASE_GAME = [
   # by PK
   'Mario Kart / Lotus',
   'Board game',
-  'Kret',
-  'Dizzy / Platform',
-  'Bejeweled'
+  # 'Kret',
+  # 'Dizzy / Platform',
+  'Bejeweled',
   'Duck Hunt',
   'Blobby Valley',
   'Jumping T-Rex',
   # 'Flappy Bird',  # DONE 20200413
   'Card game',
   'Puzzle Game / Arcade',
-  'gra paragrafowa',
+  'Gra paragrafowa',
   'Tamagotchi',
-  'Bloxorz',
+  # 'Bloxorz',
   # '3D Maze', # DONE 20200201
   'Rougelike',
   'Minesweeper',
@@ -85,6 +83,7 @@ BASE_GAME = [
   'PC wybiera',
   # 'Pac-Man', # DONE 20200614
   # 'Nuclear Throne', # DONE 20201025
+  'Open topic',
 ]
 
 
@@ -132,7 +131,7 @@ THEME = [
 
 MUTATIONS = [
   # positive mutations
-  'puszka pepsi dla każdego (from PK)',
+  #'puszka pepsi dla każdego (from PK)',
   
   # time mutations
   [
@@ -184,14 +183,14 @@ MUTATIONS = [
   ],
 
   # technology 
-  [
-    'no-js',
-    'no-python',
-    'mobile',
-    'scratch',
-    'powerpoint',  # by PK: https://itch.io/jam/powerpoint-game-jam
-    'brython',
-  ],
+  #[
+  #  'no-js',
+  #  'no-python',
+  #  'mobile',
+  #  'scratch',
+  #  'powerpoint',  # by PK: https://itch.io/jam/powerpoint-game-jam
+  #  'brython',
+  #],
 
   # game mechanics
   'proceduraly generated',
@@ -219,10 +218,10 @@ MUTATIONS = [
 
   # hardcore
   [
-    'code-without-w',  # by MC
-    'no internet (after start)',  # by GŻ
+  #  'code-without-w',  # by MC
+  #  'no internet (after start)',  # by GŻ
     'unit-tests',  # by MC
-    'pair-coding',  # via VS LiveShare
+  #  'pair-coding',  # via VS LiveShare
   ],
     
   # yokers
