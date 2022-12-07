@@ -66,8 +66,18 @@ BASE_GAME = [
   'Canyon Bomber', # https://codeheir.com/2019/03/10/how-to-code-canyon-bomber-1977-6/
   'Word Game', # eg. scrabble, Codename, Panśtwa-Miasta, Hangman
   'Paper & Pencil', # https://en.wikipedia.org/wiki/Category:Paper-and-pencil_games
-  'pinball',
-
+  # 'pinball', # DONE 20221206
+  'Falling ball',
+  'Whack a mole',
+  'Tic Tac Toe',
+  'Helicopter',
+  'Puzzles',
+  'Billard',
+  'Connect Four',
+  'Fruit Ninja',
+  'Typespeed',
+  'Pipe Dream',
+   
   # by MC 
   'agar.io',
   'Kveiki',
