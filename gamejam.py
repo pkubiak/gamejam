@@ -77,6 +77,7 @@ BASE_GAME = [
   'Fruit Ninja',
   'Typespeed',
   'Pipe Dream',
+  'GeoGuessr',
    
   # by MC 
   'agar.io',
@@ -136,7 +137,10 @@ THEME = [
   'Cząstki elementarne',
   'Pierwsza Wojna Światowa',
   'Coronavirus',
-] + ['Happy Easter'] * (4**9 if '0409' <= TODAY[4:] <= '0416' else 0) + ['Santa Claus'] * (4**9 if '1205' <= TODAY[4:] <= '1207' else 0)
+] + \
+['Happy Easter'] * (4**9 if '0409' <= TODAY[4:] <= '0416' else 0) + \
+['Santa Claus'] * (4**9 if '1205' <= TODAY[4:] <= '1207' else 0) + \
+["New Year's Eve"] * (4**9 if TODAY[4:] == '1231' else 0)
 
 
 MUTATIONS = [
