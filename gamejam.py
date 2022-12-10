@@ -22,72 +22,80 @@ TODAY = datetime.today().strftime('%Y%m%d')
 
 BASE_GAME = [
   #'Tetris', # DONE 20200314
-  'Snake',
-  'Boulder Dash',
-  'Sokoban',
-  'Zatacka / Achtung Die Kurve',
-  'Asteroids',
-  'Space Invaders', # https://codeheir.com/2019/03/17/how-to-code-space-invaders-1978-7/
-  'Space shooter',
-  'Donky Kong',
-  'Pong', # https://codeheir.com/2019/02/04/how-to-code-pong-1972-1/
+  ('Snake', 'https://youtu.be/i7PCbZmZlwM'),
+  ('Boulder Dash', 'https://youtu.be/mLQzL8vsNVM'),
+  ('Sokoban', 'https://youtu.be/yZNxZDVemWY'),
+  ('Zatacka / Achtung Die Kurve', 'https://youtu.be/865R57w5hmk'),
+  ('Asteroids', 'https://youtu.be/WYSupJ5r2zo'),
+  ('Space Invaders', 'https://youtu.be/MU4psw3ccUI', 'https://codeheir.com/2019/03/17/how-to-code-space-invaders-1978-7/'),
+  ('Space shooter', 'https://youtu.be/tKobl50jrLk'),
+  ('Pong', 'https://youtu.be/fiShX2pTz9A', 'https://codeheir.com/2019/02/04/how-to-code-pong-1972-1/'),
   # 'Pac-Man',  # DONE 20200614
-  'Frogger',
+  ('Frogger', 'https://youtu.be/WNrz9_Fe-Us'),
   # 'Breakout / WinBricks',  # DONE 20200503
-  'Tron',
+  ('Tron', 'https://youtu.be/1zv333wxZFU'),
 
   # by PK
-  'Mario Kart / Lotus',
+  ('Lotus Turbo', 'https://youtu.be/oLQiwjGrEjE', 'https://youtu.be/vAf0whWrXt4'),
   'Board game',
   # 'Kret',
   # 'Dizzy / Platform',
-  'Bejeweled',
-  'Duck Hunt',
-  'Blobby Valley',
-  'Jumping T-Rex',
+  ('Bejeweled', 'https://youtu.be/PZZp8m_jcdo'),
+  ('Duck Hunt', 'https://youtu.be/vbypwNjNcVI'),
+  ('Blobby Valley', 'https://youtu.be/clhuvirGeHY'),
+  ('Jumping T-Rex', 'https://youtu.be/yj1TuVetVgQ'),
   # 'Flappy Bird',  # DONE 20200413
   'Card game',
   'Puzzle Game / Arcade',
-  'Gra paragrafowa',
-  'Tamagotchi',
+  ('Gra paragrafowa', 'https://youtu.be/m-OjuPHDOEo'),
+  ('Tamagotchi', 'https://youtu.be/h3pMVCYM_EM'),
   # 'Bloxorz',
   # '3D Maze', # DONE 20200201
-  'Rougelike',
-  'Minesweeper',
-  'Tower Defense',
-  'Text based', # https://en.wikipedia.org/wiki/Text_adventure
-  'Tetris Racing / Monaco GP', # https://youtu.be/ZRQXzOL4iOA
-  'Memory',
-  '2048',
-  'Ships',
+  ('Rougelike', 'https://youtu.be/tjGT-sRdiUk', 'https://youtu.be/vxF1osPkplA'),
+  ('Minesweeper', 'https://youtu.be/GrZCWx0fnfc'),
+  ('Tower Defense', 'https://youtu.be/dZ56Y2FYYU0'),
+  ('Text based', 'https://youtu.be/D9qrZC7WUio', 'https://youtu.be/u8X6TiJA8as'),
+  ('Tetris Racing / Monaco GP', 'https://youtu.be/ZRQXzOL4iOA', 'https://codeheir.com/2019/03/31/how-to-code-monaco-gp-1979-8/'),
+  ('Memory', 'https://youtu.be/EpTWD-pplMo', 'https://youtu.be/dqqxkrKhfS4'),
+  ('2048', 'https://youtu.be/7w-KZ5Pcc2E'),
+  ('Battleships', 'https://youtu.be/k4kc_rqsP5I', 'https://youtu.be/MgJBgnsDcF0'),
   'Dobble', # https://youtu.be/lhTMr8RzUr8
-  'Gran Trak 10', # https://codeheir.com/2019/02/17/how-to-code-gran-trak-10-1974-3/
-  'Jet Figter', # https://codeheir.com/2019/02/24/how-to-code-jet-fighter-1975-4/
-  'Canyon Bomber', # https://codeheir.com/2019/03/10/how-to-code-canyon-bomber-1977-6/
+  ('Gran Trak 10', 'https://youtu.be/RuPEoLkVwtI', 'https://codeheir.com/2019/02/17/how-to-code-gran-trak-10-1974-3/'),
+  ('Jet Fighter', 'https://youtu.be/MMObEpsy7Eg', 'https://codeheir.com/2019/02/24/how-to-code-jet-fighter-1975-4/'),
+  ('Canyon Bomber', 'https://youtu.be/u4b48yoIRkg', 'https://codeheir.com/2019/03/10/how-to-code-canyon-bomber-1977-6/'),
+  ('Hangman', 'https://youtu.be/boVXrxx5RYQ', 'https://youtu.be/ynwB-QfOPRw'),
   'Word Game', # eg. scrabble, Codename, Panśtwa-Miasta, Hangman
   'Paper & Pencil', # https://en.wikipedia.org/wiki/Category:Paper-and-pencil_games
   # 'pinball', # DONE 20221206
-  'Falling ball',
-  'Whack a mole',
+  ('Falling ball', 'https://youtu.be/FxfmSIsoHXU'),
+  ('Whack a mole', 'https://youtu.be/RKekuvkWrOQ?t=24'),
   'Tic Tac Toe',
-  'Helicopter',
+  ('Helicopter', 'https://youtu.be/Jpy0PEy9NQI'),
   'Puzzles',
-  'Billard',
-  'Connect Four',
-  'Fruit Ninja',
-  'Typespeed',
-  'Pipe Dream',
-  'GeoGuessr',
-   
+  ('Billard', 'https://youtu.be/0BR8whlSz1U'),
+  ('Connect Four', 'https://youtu.be/3R1Cx6uGjMw'),
+  ('Fruit Ninja', 'https://youtu.be/COFeh96bfWI'),
+  ('Typespeed', 'https://youtu.be/SRVV3Y7WjOo'),
+  ('Pipe Dream', 'https://youtu.be/DkV8PqlMwNc'),
+  ('GeoGuessr', 'https://youtu.be/EACQkecWsww'),
+  ('Gold Sprinter', 'https://youtu.be/X7UkwUvUxZE'),
+  ('Battle Painters', 'https://youtu.be/fk0uHjdhQw8'),
+  ('Who Wants to Be a Millionaire?', 'https://youtu.be/3hExsR6qmQM'),
+  ('Fishy', 'https://youtu.be/6TaIXdGgPwI'),
+  ("Rodent's Revenge", 'https://youtu.be/lEQtboM2R1w'),
+  ('Bierki / Pick-up sticks', 'https://youtu.be/EpTWD-pplMo?t=262'),
+  ('Knucklebones', 'https://youtu.be/EpTWD-pplMo?t=197', 'https://youtu.be/P8zx2UfcP1E'),
+  ('Skifree', 'https://youtu.be/Tr_xvHMR6P0', 'https://youtu.be/STfkwi2ZGIg'),
+
   # by MC 
-  'agar.io',
-  'Kveiki',
-  'Kulki',
+  ('agar.io', 'https://youtu.be/hgsy1Lzg5UU'),
+  ('Kveiki', 'https://github.com/marek-ciazynski/kveiki'),
+  ('Kulki', 'https://youtu.be/NM31opSsH7I'),
   # 'Frozen Bubble', # DONE 20200321
-  'Mamba',
-  'Bomberman',
-  'Tanks z boku',
-  'Czołgi z góry',
+  ('Mamba', 'https://youtu.be/NCpGDv0ljes'),
+  ('Bomberman', 'https://youtu.be/CZ9Pu9Usk5o'),
+  ('Scorched Earth ', 'https://youtu.be/nDw_mpjKlpg'),
+  ('Tanks', 'https://youtu.be/fe3oO3zMWWk'),
   # 'Scotland Yard', # DONE 20200328
   
   # 'MC wybiera', # DONE 20201004
@@ -286,12 +294,15 @@ if __name__ == '__main__':
 
   print(__doc__)
 
+  if isinstance(base_game, tuple):
+        base_game = f"{base_game[0]} ({base_game[1]})"
+    
   print(f"BASE GAME:\n    {base_game}\n")
 
   print(f"THEME:\n    {theme}\n")
 
   print('MUTATIONS:')
   for mutation in mutations:
-    print(f"    {mutation}")
+    print(f"    - {mutation}")
 
 
