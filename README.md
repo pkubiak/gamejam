@@ -9,11 +9,13 @@
 
 Thanks to [PyScript](https://github.com/pyscript/pyscript) project, you can run GameJam generator in your browser:
 
-- https://pkubiak.github.io/gamejam/
+- https://pawelkubiak.me/gamejam/
 
 ## History ##
 
-#### [GameJam #10: :santa: :christmas_tree: :gift: Pinball - Santa Clause Edition :santa: :christmas_tree: :gift:](10_20221206.md)
+#### [GameJam #11: :santa: :christmas_tree: :gift: Pinball - Santa Clause Edition :santa: :christmas_tree: :gift:](11_20221206.md)
+
+#### [GameJam #10: Memory](10_20210214.md)
 
 #### [GameJam #9: Nuclear Throne](09_20201025.md)
 

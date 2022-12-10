@@ -7,7 +7,7 @@ GAMEJAM RULES:
     
     Score: 
       - 0pts for non runnable game (user interactions, possible win)
-      - voting 3/pts (each player, no self votes)
+      - voting 3/pts (each player, no self votes, only unsigned integer)
       - (+1pts) x (theme and each mutation)
       - +1pts for readme with screenshot
 
@@ -56,7 +56,7 @@ BASE_GAME = [
   ('Tower Defense', 'https://youtu.be/dZ56Y2FYYU0'),
   ('Text based', 'https://youtu.be/D9qrZC7WUio', 'https://youtu.be/u8X6TiJA8as'),
   ('Tetris Racing / Monaco GP', 'https://youtu.be/ZRQXzOL4iOA', 'https://codeheir.com/2019/03/31/how-to-code-monaco-gp-1979-8/'),
-  ('Memory', 'https://youtu.be/EpTWD-pplMo', 'https://youtu.be/dqqxkrKhfS4'),
+  # ('Memory', 'https://youtu.be/EpTWD-pplMo', 'https://youtu.be/dqqxkrKhfS4'), # DONE 20210214
   ('2048', 'https://youtu.be/7w-KZ5Pcc2E'),
   ('Battleships', 'https://youtu.be/k4kc_rqsP5I', 'https://youtu.be/MgJBgnsDcF0'),
   'Dobble', # https://youtu.be/lhTMr8RzUr8
